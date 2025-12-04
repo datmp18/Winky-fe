@@ -8,12 +8,14 @@ import NewFriend from "../page/NewFriend";
 import News from "../page/News";
 import Register from "../layout/Register";
 import Video from "../page/Video";
+import Error from "../layout/Error";
 
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
+        errorElement: <Error />,
         children: [
             {
                 index: true,
