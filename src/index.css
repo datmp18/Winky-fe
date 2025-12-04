@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ant-menu-item {
+
+
+    color: #ffffff !important;
+    font-family: inherit;
+    border-radius: 8px !important;
+    margin: 4px 5px !important;
+    box-sizing: border-box;
+    line-height: 1.3333;
+}
+
+
+
+.ant-menu-item:hover {
+    background-color: #222222 !important;
+    color: white !important;
+}
+
+.ant-menu-item-selected {
+    background-color: #3e3e3d !important;
+    color: white !important;
+}
