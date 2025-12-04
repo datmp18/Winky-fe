@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Winky-fe/static/css/main.fb62b5f4.css",
-    "main.js": "/Winky-fe/static/js/main.ee75f95a.js",
+    "main.css": "/Winky-fe/static/css/main.4cf247ca.css",
+    "main.js": "/Winky-fe/static/js/main.e65960b4.js",
     "static/js/453.9b8bb8ec.chunk.js": "/Winky-fe/static/js/453.9b8bb8ec.chunk.js",
     "static/media/winky2.png": "/Winky-fe/static/media/winky2.032f187eb5ccb0df6e88.png",
     "static/media/vt2.jpg": "/Winky-fe/static/media/vt2.7becf33bef8c7ce21da6.jpg",
     "static/media/logo.svg": "/Winky-fe/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Winky-fe/index.html",
-    "main.fb62b5f4.css.map": "/Winky-fe/static/css/main.fb62b5f4.css.map",
-    "main.ee75f95a.js.map": "/Winky-fe/static/js/main.ee75f95a.js.map",
+    "main.4cf247ca.css.map": "/Winky-fe/static/css/main.4cf247ca.css.map",
+    "main.e65960b4.js.map": "/Winky-fe/static/js/main.e65960b4.js.map",
     "453.9b8bb8ec.chunk.js.map": "/Winky-fe/static/js/453.9b8bb8ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb62b5f4.css",
-    "static/js/main.ee75f95a.js"
+    "static/css/main.4cf247ca.css",
+    "static/js/main.e65960b4.js"
   ]
 }
