@@ -96,6 +96,7 @@ function Login() {
         CreacteCookie('user', userId);
         navigate('/');
     }
+
     return (
         <div className='flex items-center justify-center bg-black text-white w-full h-[100vh] flex justify-center items-center'>
             <div className="w-1/3   py-2">

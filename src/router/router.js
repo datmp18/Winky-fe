@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import App from '../App';
 import Login from "../layout/Login";
 import BodyContent from "../page/BodyContent";
@@ -8,14 +8,15 @@ import NewFriend from "../page/NewFriend";
 import News from "../page/News";
 import Register from "../layout/Register";
 import Video from "../page/Video";
-import Error from "../layout/Error";
+
+import ErrorPage from "../layout/ErrorPage";
 
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: "/",
         element: <App />,
-        errorElement: <Error />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 index: true,

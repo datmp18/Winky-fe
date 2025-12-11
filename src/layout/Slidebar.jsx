@@ -44,9 +44,9 @@ function Slidebar() {
 
         const handleResize = () => {
             if (window.innerWidth < 900) {
-                setCollapsed(true);   // Màn hình nhỏ → thu gọn menu
+                setCollapsed(true);
             } else {
-                setCollapsed(false);  // Màn hình lớn → mở rộng menu
+                setCollapsed(false);
             }
         };
 
@@ -175,13 +175,14 @@ function Slidebar() {
     ];
     const [search, setSearch] = useState("");
     const [result, setResult] = useState([]);
+    // console.log(account);
 
     const handleSearch = () => {
 
         const keyword = (search || "").toLowerCase().trim();
 
         const filteredFriends = user.filter(f =>
-            f.email.toLowerCase().includes(keyword)
+            f.email.toLowerCase().includes(keyword) && f.id != account.id
         );
         setResult(filteredFriends);
 

@@ -53,7 +53,7 @@ function ListFriend({ data }) {
                                 className='w-full h-full rounded-[5px]'
                                 alt=""
                             />
-                            <span className='absolute bottom-0 left-1 text-[14px] text-[#110000] font-bold font-tiktok p-1 opacity-40 rounded-[5px] bg-[#888888]'>
+                            <span className='absolute bottom-0 left-1 text-[14px] text-white font-bold font-tiktok p-1 opacity-40 rounded-[5px] bg-black'>
                                 {f.account.fullname}
                             </span>
                         </div>

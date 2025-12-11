@@ -34,6 +34,15 @@ export const Create = async (table, data) => {
         throw error;
     }
 }
+export const Update = async (table, id, data) => {
+    try {
+        const response = await axios.put(`${Url}${table}/${id}`, data);
+        return response.data;
+    } catch (error) {
+        console.error("Lỗi put multipart: " + error);
+        throw error;
+    }
+};
 
 export const Delete = async (table, id) => {
     try {
